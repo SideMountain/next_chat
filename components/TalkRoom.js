@@ -118,7 +118,7 @@ class TalkRoom extends Component {
         let now = new Date().toLocaleString();
         let userId = this.state.lastId * 1 + 1;
         let data = {
-            content: this.state.content,
+            content: key,
             from_flag: 1,
             read_flag: 0,
             create_date: now,
@@ -157,7 +157,7 @@ class TalkRoom extends Component {
                             {this.createTalkData()}
                             <tr>
                                 <td><input type="text" size="30" value={this.state.content} onChange={this.onChangeContent} /></td>
-                    <td><button onClick={this.doAction}>send</button></td>
+                                <td><button onClick={this.doAction}>send</button></td>
                             </tr>
                         </tbody>
                     </table>

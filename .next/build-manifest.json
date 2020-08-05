@@ -19,14 +19,6 @@
     ],
     "/_polyfills": [
       "static/runtime/polyfills.js"
-    ],
-    "/add_friends": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/home": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

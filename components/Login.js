@@ -38,7 +38,7 @@ class Login extends Component {
             type: 'UPDATE_USER',
             value: {
                 login: false,
-                user_name: '(click here!)',
+                user_name: '',
                 address: '',
                 data: []
             }

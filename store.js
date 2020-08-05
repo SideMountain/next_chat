@@ -4,14 +4,14 @@ import firebase from 'firebase';
 
 // Firebaseの初期化
 var config = {
-    apiKey: "dummy",
-    authDomain: "dummy",
-    databaseURL: "dummy",
-    projectId: "dummy",
-    storageBucket: "dummy",
-    messagingSenderId: "dummy",
-    appId: "dummy",
-    measurementId: "dummy"
+    apiKey: "AIzaSyB4lbe4IWpbyCKZJGPNOuW89pRPz8YnFiQ",
+    authDomain: "yu-yama-chat.firebaseapp.com",
+    databaseURL: "https://yu-yama-chat.firebaseio.com",
+    projectId: "yu-yama-chat",
+    storageBucket: "yu-yama-chat.appspot.com",
+    messagingSenderId: "95381286371",
+    appId: "1:95381286371:web:d65ec973ed17bb89ed84d6",
+    measurementId: "G-5E9FPFWBE7"
 }
 
 var fireapp;
@@ -24,6 +24,7 @@ export default fireapp;
 
 // ステート初期値
 const initial = {
+    login: false
 }
 
 // レデューサー(ダミー)

@@ -12,18 +12,29 @@ import userListStyle from '../static/UserListStyle';
 class Home extends Component {
     constructor(props) {
         super(props);
+        console.log('login:' + this.props.login);
+        if (this.props.login == false) {
+            console.log('なぜ？')
+            this.goHome();
+        }
+    }
+
+    // Homeに遷移
+    goHome() {
+        Router.push('/login');
+        console.log('とばねぇ');
     }
 
     // 友達追加ページへ遷移
     go() {
-        Router.push('/add_friends');
+        Router.push('/add_friend');
     }
 
     render() {
         return (
             <Layout header="Home" title={this.props.user_name}>
                 {userListStyle}
-                <div id="add_friends">
+                <div id="add_friend">
                     <button onClick={this.go.bind()}>add</button>
                 </div>
                 <div class="tabs">
