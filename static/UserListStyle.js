@@ -13,5 +13,6 @@ export default <style>{`
     }
     .sample_test {
         font-size: 16pt;
+        font-weight: bold;
     }
 `}</style>
