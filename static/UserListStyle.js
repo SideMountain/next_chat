@@ -11,4 +11,7 @@ export default <style>{`
         font-size: 16pt;
         font-weight: bold;
     }
+    .sample_test {
+        font-size: 16pt;
+    }
 `}</style>
