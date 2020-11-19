@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import firebase from 'firebase';
 
-// Firebaseの初期化を実行します！！
+// Firebaseの初期化を実行します！！こちらは競合
 var config = {
     apiKey: "AIzaSyB4lbe4IWpbyCKZJGPNOuW89pRPz8YnFiQ",
     authDomain: "yu-yama-chat.firebaseapp.com",
